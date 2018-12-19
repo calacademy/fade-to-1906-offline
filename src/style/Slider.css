@@ -1,0 +1,10 @@
+#slider .carousel .carousel-inner {
+  width: 100%; }
+  #slider .carousel .carousel-inner .item {
+    height: 100%;
+    background-color: #ddd;
+    transition: transform 0.3s ease-out; }
+
+#slider .carousel-indicators,
+#slider .carousel-control {
+  display: none; }

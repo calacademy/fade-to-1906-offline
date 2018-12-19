@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'W-Condensed-Medium';
+  src: url("../fonts/W-Cond-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Condensed-Semibold';
+  src: url("../fonts/W-Cond-Semibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Book';
+  src: url("../fonts/W-Book-Pro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Medium';
+  src: url("../fonts/W-Medium-Pro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Narrow-Semibold';
+  src: url("../fonts/W-Narr-Semibold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Narrow-Book';
+  src: url("../fonts/W-Narr-Book-Old.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'W-Semibold';
+  src: url("../fonts/W-Semibold-Pro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SourceHanSansCN-Normal';
+  src: url("../fonts/SourceHanSansCN-Normal.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SourceHanSansCN-Medium';
+  src: url("../fonts/SourceHanSansCN-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SourceHanSansCN-Bold';
+  src: url("../fonts/SourceHanSansCN-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-font-feature-settings: "ss17" 1, "onum" 1;
+  -moz-font-feature-settings: "ss17" 1, "onum" 1;
+  -ms-font-feature-settings: "ss17" 1, "onum" 1;
+  font-feature-settings: "ss17" 1, "onum" 1; }
+  body #root {
+    width: 100%;
+    height: 100%;
+    background-color: #666; }
+  body h1, body h2, body h3, body h4, body p, body ul, body li, body button, body footer, body img, body caption, body span {
+    margin: 0;
+    padding: 0; }
+  body button, body footer, body img, body caption {
+    border: none;
+    outline: none; }
+  body ul, body li {
+    list-style: none;
+    display: block; }

@@ -1,0 +1,58 @@
+#app {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background-color: #000;
+  color: #000;
+  font-family: 'W-Medium', 'W-Book', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  #app.preview {
+    overflow: hidden;
+    zoom: 0.6;
+    cursor: pointer !important; }
+  #app #container-loader {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    z-index: 999; }
+  #app #container-attract {
+    width: 1920px;
+    height: 1035px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    top: 45px;
+    opacity: 0;
+    transition: opacity 0.8s; }
+    #app #container-attract.reveal {
+      animation: attract-fade-in-out 4.2s; }
+
+@keyframes attract-fade-in-out {
+  0% {
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  70% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+  #app #container-spotlight {
+    width: 1440px;
+    height: 1035px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 45px;
+    left: 480px; }
+  #app #container-slider {
+    width: 1440px;
+    height: 1035px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: 480px; }
+  #app .hide {
+    display: none; }

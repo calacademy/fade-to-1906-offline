@@ -1,0 +1,17 @@
+#slider {
+  .carousel {
+    .carousel-inner {
+      width: 100%;
+      .item {
+        height: 100%;
+        background-color: #ddd;
+        transition: transform 0.3s ease-out;
+      }
+    }
+  }
+  .carousel-indicators,
+  .carousel-control {
+    display: none;
+  }
+
+}

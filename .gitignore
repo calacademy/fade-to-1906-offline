@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# production
+/build
+/public/files
+/src/fonts
+
+# misc
+.DS_Store
+Thumbs.db
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

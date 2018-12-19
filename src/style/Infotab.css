@@ -1,0 +1,146 @@
+#infotab {
+  user-select: none;
+  position: absolute;
+  z-index: 1;
+  top: 45px;
+  width: 480px;
+  height: 1035px;
+  background-color: #FF9E1B; }
+  #infotab #container-infotab-intro {
+    margin: 120px 60px 50px 60px; }
+    #infotab #container-infotab-intro h1 {
+      font-family: 'W-Narrow-Book', 'SourceHanSansCN-Normal';
+      font-size: 60px;
+      line-height: 60px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #fff; }
+    #infotab #container-infotab-intro h2 {
+      font-family: 'W-Narrow-Semibold', 'SourceHanSansCN-Bold';
+      margin-top: 18px;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #d2451e; }
+    #infotab #container-infotab-intro p {
+      font-family: 'W-Book', 'SourceHanSansCN-Normal';
+      margin-top: 8px;
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #fff; }
+    #infotab #container-infotab-intro button {
+      font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+      width: 100%;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border: 2px solid #fff;
+      outline: none;
+      margin-top: 96px;
+      background-color: transparent;
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #fff; }
+      #infotab #container-infotab-intro button:active {
+        opacity: 0.7; }
+    #infotab #container-infotab-intro footer {
+      font-family: 'W-Book', 'SourceHanSansCN-Normal';
+      position: absolute;
+      bottom: 40px;
+      left: 60px;
+      width: 80%;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #d2451e; }
+  #infotab #container-infotab-slides {
+    margin: 30px 60px 50px 60px; }
+    #infotab #container-infotab-slides button {
+      height: 43px;
+      width: 43px;
+      background-image: url("../img/btn-close.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 100%;
+      background-color: transparent;
+      border: none;
+      outline: none; }
+      #infotab #container-infotab-slides button:active {
+        opacity: 0.7; }
+    #infotab #container-infotab-slides h1 {
+      font-family: 'W-Narrow-Semibold', 'SourceHanSansCN-Bold';
+      margin-top: 70px;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #d2451e; }
+    #infotab #container-infotab-slides h2 {
+      font-family: 'W-Narrow-Semibold', 'SourceHanSansCN-Bold';
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: normal;
+      white-space: pre-line;
+      color: #d2451e; }
+    #infotab #container-infotab-slides div.map > img {
+      margin-top: 25px; }
+    #infotab #container-infotab-slides div.location {
+      background-image: url("../img/pin-location.png");
+      background-repeat: no-repeat;
+      background-size: 16%;
+      padding-left: 50px;
+      margin-bottom: 40px;
+      margin-top: 18px;
+      min-height: 44px;
+      font-family: 'W-Book';
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: normal;
+      white-space: pre-line; }
+      #infotab #container-infotab-slides div.location span {
+        vertical-align: top; }
+    #infotab #container-infotab-slides div.caption {
+      font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: normal;
+      white-space: pre-line; }
+    #infotab #container-infotab-slides button.prev {
+      background-image: url("../img/btn-prev.svg") !important;
+      position: absolute;
+      bottom: 80px;
+      left: 60px; }
+      #infotab #container-infotab-slides button.prev:active {
+        opacity: 0.7; }
+    #infotab #container-infotab-slides button.next {
+      background-image: url("../img/btn-next.svg") !important;
+      position: absolute;
+      bottom: 80px;
+      right: 60px; }
+      #infotab #container-infotab-slides button.next:active {
+        opacity: 0.7; }
+    #infotab #container-infotab-slides ul.pager {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+      left: 0; }
+      #infotab #container-infotab-slides ul.pager li {
+        width: 10px;
+        height: 10px;
+        margin: 2px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background-color: #000;
+        display: inline-block;
+        opacity: 0.3; }
+        #infotab #container-infotab-slides ul.pager li.hot {
+          opacity: 1; }
+  #infotab .hide {
+    display: none; }

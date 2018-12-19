@@ -1,0 +1,48 @@
+#spotlight {
+
+  background-image: url('../img/spotlight-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  height: 100%;
+
+  .bubble-container-anim {
+    display: block !important;
+  }
+  .bubble-container {
+    // offset bubble container for absolute bubble coords from cms
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 1920px;
+    height: 1035px;
+    left: -480px;
+
+    .hitzone {
+      position: absolute;
+      z-index: 3;
+      //top: 45px;
+      left: 480px;
+      width: 1440px;
+      height: 1035px;
+      //background-color: #00ff00;
+      //opacity: 0.2;
+    }
+
+    .bubble-anim-in {
+      transform: scale(1) !important;
+    }
+    .bubble {
+      position: absolute;
+      z-index: 2;
+      background-repeat: no-repeat;
+      width: 390px;
+      height: 390px;
+      transform: scale(0.08);
+      //transition: transform 0.8s cubic-bezier(.25,.48,.52,.75);
+      transition: transform 0.8s;
+    }
+
+  }
+
+}
